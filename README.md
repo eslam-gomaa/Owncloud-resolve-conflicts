@@ -74,6 +74,7 @@ crontab -e
 */5 * * * * /root/owncloud-solve-conflicts.py >> /var/log/messages
 ```
 * Make sure you modify the script directory if different.
+
 This will run the script every 5 minutes, anse send the output to `/var/log/messages`
 
 
