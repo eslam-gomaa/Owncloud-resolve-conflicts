@@ -4,7 +4,11 @@ A Python script to resolve OwnCloud conflicted files. (From the server side)
 
 ## Prerequisites
 
-1. Get the WebDav address of your owncloud
+1. Get the WebDav address of your owncloud 
+
+Can be found at the bottom left of the owncloud home page
+
+![image](https://user-images.githubusercontent.com/33789516/126978695-edbfdecd-eaae-4882-8fb7-27c76c479ead.png)
 
 
 ---
