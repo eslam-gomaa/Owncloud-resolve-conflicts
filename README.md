@@ -35,7 +35,7 @@ pip install requests
 
 ### Configure the script
 
-Open the script and provided the needed parameters
+Open the script and provide the needed parameters
 
 ![image](https://user-images.githubusercontent.com/33789516/126977861-4ea57a00-918f-4da8-9ca5-ecbf088d0cd3.png)
 
