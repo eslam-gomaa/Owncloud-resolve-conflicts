@@ -91,7 +91,7 @@ def rename_file(file1_url, file2_url, user, password, verify=False):
 
 
 # Test
-#get_file('https://90.84.41.239:4436/remote.php/dav/files/Eslam/PCloudSync/TEST%201.txt', usrename, passowrd)
+#get_file('https://<ip : port>/remote.php/dav/files/<account name>/<directory>/TEST%201.txt', usrename, passowrd)
 
 conflicted = runcommand("""
 cd {};
