@@ -20,6 +20,21 @@ pip install requests
 
 ## Usage
 
+### Configure the script
+
+Open the script and provided the needed parameters
+
+![image](https://user-images.githubusercontent.com/33789516/126977861-4ea57a00-918f-4da8-9ca5-ecbf088d0cd3.png)
+
+
+| Variable | Description                         |
+| ---------- | ------------------------------------- |
+| data_dir | Owncloud data directory (on the OS) |
+| webdav   | your Owncloud webdav link           |
+| usrename | Owncloud account username           |
+| passowrd | Owncloud account password           |
+
+---
 
 Run the script
 
@@ -34,6 +49,7 @@ chmod +x owncloud-solve-conflicts.py
 ./owncloud-solve-conflicts.py
 ```
 
+Note: The script tested with `python2` but should be working with `python3` as well.
 
 ### Prefered way to use it
 
@@ -42,8 +58,9 @@ crontab -e
 ```
 
 ```bash
-*/5 * * * * /root/conflict.py >> /var/log/messages
+*/5 * * * * /root/owncloud-solve-conflicts.py >> /var/log/messages
 ```
+* Make sure you modify the script directory if different.
 This will run the script every 5 minutes, anse send the output to `/var/log/messages`
 
 
