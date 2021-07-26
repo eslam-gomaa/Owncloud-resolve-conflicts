@@ -2,6 +2,15 @@
 A Python script to resolve OwnCloud conflicted files. (From the server side)
 
 
+### Approach
+
+When the script is executed (usually periodically via `crontab`) it looks if there are any conflicted files, If a conflicted file found it gets compared with its original file and the last modification wins
+
+**Note:** I've been using this script for months and works like a charm, if you faced an error please let me know
+
+---
+
+
 ## Prerequisites
 
 1. Get the WebDav address of your owncloud 
@@ -53,7 +62,7 @@ chmod +x owncloud-solve-conflicts.py
 ./owncloud-solve-conflicts.py
 ```
 
-Note: The script tested with `python2` but should be working with `python3` as well.
+**Note:** The script tested with `python2` but should be working with `python3` as well.
 
 ### Prefered way to use it
 
