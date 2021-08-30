@@ -1,4 +1,4 @@
-# Owncloud-cesolve-conflicts
+# Owncloud-resolve-conflicts
 A Python script to resolve OwnCloud conflicted files. (From the server side)
 
 
