@@ -15,9 +15,17 @@ When the script is executed (usually periodically via `crontab`) it looks if the
 
 1. Get the WebDav address of your owncloud 
 
-Can be found at the bottom left of the owncloud home page
 
-![image](https://user-images.githubusercontent.com/33789516/126978695-edbfdecd-eaae-4882-8fb7-27c76c479ead.png)
+<details>
+    <summary>
+        <b style="font-size:10px"><mark style="background-color: #fffccd">
+            Can be found at the bottom left of the owncloud home page
+            </mark></b>
+    </summary>
+  
+  <img src="https://user-images.githubusercontent.com/33789516/126978695-edbfdecd-eaae-4882-8fb7-27c76c479ead.png">
+  
+</details>
 
 
 ---
@@ -29,6 +37,45 @@ Can be found at the bottom left of the owncloud home page
 pip install requests
 ```
 
+---
+
+3. Configure Owncloud to upload the conflicted files
+
+<details>
+    <summary>
+        <b style="font-size:20px"><mark style="background-color: #fffccd">
+            On Windows
+            </mark></b>
+    </summary>
+  
+  <img src="https://user-images.githubusercontent.com/33789516/135644695-f086fa7b-95a3-437b-b525-4188cb322ba9.png">
+   <br>
+   <br>
+   Variable: <code>OWNCLOUD_UPLOAD_CONFLICT_FILES</code>
+   <br>
+   Value: <code>1</code>
+   <br>
+   <br>
+  <img src="https://user-images.githubusercontent.com/33789516/135644351-346afb3d-039d-4f43-bf85-c4b605f5bfd5.png">
+  
+</details>
+
+
+<details>
+    <summary>
+        <b style="font-size:20px"><mark style="background-color: #fffccd">
+            On Linux
+            </mark></b>
+    </summary>
+  
+  ```bash
+  export OWNCLOUD_UPLOAD_CONFLICT_FILES=1
+  ```
+  
+</details>
+
+
+---
 
 
 ## Usage
